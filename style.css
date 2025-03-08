@@ -2,4 +2,63 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+
 }
+/* Center the header text */
+h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property image {
+  display: block;
+  margin: 0 auto;
+  width: 50%
+}
+
+/* Style navigation links */
+header nav {
+  text-align: center; /* Center all links */
+}
+
+header nav a {
+  padding: 10px; /* Left and right padding */
+  background-color: rgb(172, 172, 172); /* Background color */
+  color: purple; /* Text color for contrast */
+  text-decoration: underline; /* Remove underline */
+  margin: 0 5px; /* Add spacing between links */
+  display: inline-block; /* Ensure padding is respected */
+}
+
+header nav a:hover {
+  background-color: darkgrey; /* Hover effect */
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  text-align: center;
+  font-size: 0.9em; /* Shrink font size */
+  color: gray; /* Subtle text color */
+}
+
+/* Center the text block */
+#featured-property p {
+  width: 800px; /* Hard width */
+  margin: 20px auto; /* Centered and add vertical space */
+  text-align: center;
+}
+
+/* Make the #details section horizontal */
+#details div {
+  float: left; /* Align divs horizontally */
+  width: 25%; /* Each div occupies 25% width */
+  text-align: center; /* Center text */
+  background-color: red; /* Same background color */
+  
+  box-sizing: border-box; /* Include padding in width */
+}
+
+#details {
+  overflow: hidden; /* Clear floated elements */
+}
+
